@@ -7,4 +7,9 @@ package pl.akademiakodu;
 @FunctionalInterface
 public interface IntegerMath {
     int operate(int a, int b);
+
+//    METODY DEFAUKTOWE - cos co nie "musi" byc implementowane przy implementacji interfejsu
+    default void makeTest(){
+        System.out.println("Hello wold!");
+    }
 }

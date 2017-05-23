@@ -19,9 +19,9 @@ public class LambdasHomework {
         System.out.println(LambdasHomework.map(elements, (a) -> a + 5));
     }
 
-    public static List map(List <Integer> list, IntFunction<Integer> operate){
+    public static List map(List<Integer> list, IntFunction<Integer> operate){
         List<Integer> newList = new ArrayList<>();
-        for(int i:list){
+        for(int i : list){
             newList.add(operate.apply(i));
         }
         return newList;
