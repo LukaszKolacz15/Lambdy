@@ -2,6 +2,7 @@ package pl.akademiakodu;
 
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 
 public class Calculator {
     public static void main(String[] args) {
@@ -37,6 +38,8 @@ public class Calculator {
 //    }
 
 //     CONSUMER NA GOTOWYM INTERFEJSIE (BiFunction) - to samo co powyzej:
+//        (Consumer consumer; > ctrl + klick na Consumer > scrol do gory > ctrl + klick na function > dostep do wszystkich wbudowanych interfejsow)
+
     public static int operateBinary(int a, int b, BiFunction<Integer, Integer, Integer> math) {
         return math.apply(a, b);
     }
