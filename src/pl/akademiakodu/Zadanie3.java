@@ -32,7 +32,5 @@ public class Zadanie3 {
 //      FOR EACH OD JAVY 1.8 ( names.forEach(Consumer<? super String> action) void ):
         names.forEach(arg1 -> System.out.println(arg1));
 
-
-        
     }
 }
